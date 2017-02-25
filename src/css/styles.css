@@ -1,0 +1,10 @@
+#layout{
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer div{
+  flex: 1;
+}
