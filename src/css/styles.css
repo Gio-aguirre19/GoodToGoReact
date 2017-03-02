@@ -1,10 +1,38 @@
-#layout{
+body, html{
+  background: #EEE;
+  color: #444;
   text-align: center;
+  margin: 0;
+}
+header > div, footer > div{
+  flex: 1;
+}
+.Home button, .prompt button{
+  padding: 10px 20px;
+  border: none;
+  color: #FFF;
+  background: #2A3;
+  border-radius: 5px;
+}
+header {
+  align-items: baseline;
+}
+header a{
+  color: #444;
+}
+form div{
+  padding: 5px;
+}
+form input[type="text"]{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px #CCC solid;
+  background: #EEE;
 }
 footer{
-  display: flex;
-  justify-content: center;
-}
-footer div{
-  flex: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 12px;
 }
